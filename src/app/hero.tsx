@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const Dialog = dynamic(() => import('@headlessui/react').then(mod => mod.Dialog))
-const Bars3Icon = dynamic(() => import('@heroicons/react/outline').then(mod => mod.Bars3Icon))
-const XMarkIcon = dynamic(() => import('@heroicons/react/outline').then(mod => mod.XMarkIcon))
+//const Bars3Icon = dynamic(() => import('@heroicons/react/outline').then(mod => mod.Bars3Icon))
+//const XMarkIcon = dynamic(() => import('@heroicons/react/outline').then(mod => mod.XMarkIcon))
 
 export default function HeroSection() {
   const [isOpen, setIsOpen] = useState(false)
